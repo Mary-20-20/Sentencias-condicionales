@@ -8,7 +8,7 @@ float calcBmi(float h,float w);
 
 
 int main(){
-    // Local variable declaration
+
     float height;
     float weight;
     float bmi;
@@ -28,13 +28,13 @@ int main(){
     printf("Your body mass index is %f kg/m^2",bmi);
     
     if (bmi - 18.5){
-        printf("usted tiene bajo peso");
+        printf("You're thin");
     }
     else if (bmi += 18.5 && bmi -= 29.4){
-        printf("usted tiene peso normal");
+        printf("You're in a normal weigth");
     }
     else{
-        printf("tiene sobrepeso")
+        printf("you're overweight")
     }
 }
 
