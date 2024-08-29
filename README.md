@@ -30,7 +30,7 @@ int main(){
     if (bmi < 18.5){
         printf("You're thin");
     }
-    else if (bmi >= 18.5 && bmi <= 29.4){
+    else if (bmi >= 18.5 && bmi <= 24.9){
         printf("You're in a normal weigth");
     }
     else if (bmi > 25 && bmi < 29.9){
