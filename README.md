@@ -27,14 +27,17 @@ int main(){
 
     printf("Your body mass index is %f kg/m^2",bmi);
     
-    if (bmi - 18.5){
+    if (bmi < 18.5){
         printf("You're thin");
     }
-    else if (bmi += 18.5 && bmi -= 29.4){
+    else if (bmi >= 18.5 && bmi <= 29.4){
         printf("You're in a normal weigth");
     }
-    else{
+    else if (bmi > 25 && bmi < 29.9){
         printf("you're overweight")
+    }
+    else {
+    printf("you're obese")
     }
 }
 
